@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fillViewport="false"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+
+    <RelativeLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="5dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="60dp"
+            android:text="@string/physical_fitness_quiz"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="59dp"
+            android:orientation="vertical"
+            android:paddingEnd="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingStart="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q1_what_tpye_of_activity_is_considered_to_be_a_flexibilty_activity"
+                android:textStyle="bold" />
+
+            <CheckBox
+
+                android:id="@+id/checkBox_1a"
+                android:onClick="answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jumpin" />
+
+            <CheckBox
+                android:id="@+id/checkBox_1b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="answer"
+                android:text="@string/laying_down" />
+
+            <CheckBox
+                android:id="@+id/checkBox_1c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="answer"
+                android:text="@string/stretching" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="192dp"
+            android:orientation="vertical"
+            android:paddingEnd="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingStart="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q2_the_knee_extension_exercise_works_which_musle_group_primarity"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/button_1a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ans"
+                    android:layout_weight="1"
+                    android:text="@string/quadriceps" />
+
+                <RadioButton
+                    android:id="@+id/button_1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ans"
+                    android:layout_weight="1"
+                    android:text="@string/tibialis_anteria" />
+
+                <RadioButton
+                    android:id="@+id/button_1c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ans"
+                    android:layout_weight="1"
+                    android:text="@string/hamstrings" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="330dp"
+            android:orientation="vertical"
+            android:paddingEnd="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingStart="16dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q3_weight_training_can_be_used_as_an_aerobic_exercise"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/button_2a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ans"
+                    android:text="@string/tr" />
+
+                <RadioButton
+                    android:id="@+id/button_2b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ans"
+                    android:text="@string/fa" />
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="430dp"
+            android:orientation="vertical"
+            android:paddingEnd="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingStart="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q4_which_activity_would_be_considered_a_muscual_endurance"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox_2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="answer"
+                android:text="@string/push_up" />
+
+            <CheckBox
+                android:id="@+id/checkBox_2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="answer"
+                android:text="@string/weight_lifting" />
+
+            <CheckBox
+                android:id="@+id/checkBox_2c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="answer"
+                android:text="@string/jumping" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:layout_marginTop="550sp"
+            android:paddingEnd="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingStart="16dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q5_which_exercise_would_be_considered_a_cardioascular_endurance_activity"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox_4a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="answ"
+                android:text="@string/cycling" />
+
+            <CheckBox
+                android:id="@+id/checkBox_4b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="answ"
+                android:text="@string/jump_roping" />
+
+            <CheckBox
+                android:id="@+id/checkBox_4c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="answ"
+                android:text="@string/all_of_the_above" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/q7_where_would_you_find_the_biceps_femoris"
+                            android:textStyle="bold"
+                            android:hint="@string/q7_where_would_you_find_the_biceps_femoris"
+                            android:labelFor="@+id/checkbox"
+                            android:inputType="leg" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TextView" />
+
+
+                    </LinearLayout>
+
+            </LinearLayout
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:onClick="submitButton"
+            android:text="submit"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

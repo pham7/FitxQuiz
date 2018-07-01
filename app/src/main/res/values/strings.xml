@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Fitx Quiz</string>
+    <string name="q1_what_tpye_of_activity_is_considered_to_be_a_flexibilty_activity">Q1. What tpye of activity is considered to be a flexibilty activity?</string>
+    <string name="tibialis_anteria">Tibialis Anteria</string>
+    <string name="hamstrings">Hamstrings</string>
+    <string name="t">True</string>
+    <string name="jumpin">Jumping</string>
+    <string name="q5_which_exercise_would_be_considered_a_cardioascular_endurance_activity">Q5. Which exercise would be considered a cardioascular endurance activity?</string>
+    <string name="cycling">Cycling</string>
+    <string name="jump_roping">Jump roping</string>
+    <string name="all_of_the_above">All of the above</string>
+    <string name="weight_lifting">Weight lifting</string>
+    <string name="push_up">Push up</string>
+    <string name="q4_which_activity_would_be_considered_a_muscual_endurance">Q4. Which activity would be considered a muscual endurance?</string>
+    <string name="fa">False</string>
+    <string name="q3_weight_training_can_be_used_as_an_aerobic_exercise">Q3. weight training can be used as an aerobic exercise?</string>
+    <string name="quadriceps">Quadriceps</string>
+    <string name="q2_the_knee_extension_exercise_works_which_musle_group_primarity">Q2. The knee extension exercise works which musle group primarity</string>
+    <string name="stretching">stretching</string>
+    <string name="laying_down">Laying down</string>
+    <string name="jumping">Jumping</string>
+    <string name="tr">True</string>
+    <string name="physical_fitness_quiz">Physical Fitness Quiz</string>
+    <string name="q6_where_would_you_find_the_biceps_femoris">Q7. Where would you find the biceps femoris?</string>
+    <string name="f">False</string>
+</resources>
